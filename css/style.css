@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #008001;
+}
+
+/* ---------------- */
+
+/* index */
+.body {
+    width: 100%;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(248, 248, 248);
+}
+
+.nav {
+    width: 400px;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+.block {
+    margin-top: 20px;
+}
+
+.brutalStyle {
+    color: red;
+}
+
+p {
+    margin-top: 15px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+.listUnique {
+    list-style: disc;
+    padding-left: 35px;
+}
+
+.nextCurs {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.easyText {
+    margin-bottom: 15px;
+}
+
+/* ---------- */
+
+/* 2 html */
+
+.CSS-h1 {
+    color: red;
+}
+
+.blueBG {
+    width: 100px;
+    height: 75px;
+    background-color: #0000FE;
+    color: #fff;
+}
