@@ -60,12 +60,12 @@ form {
 }
 
 .nextCurs {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-decoration: underline;
 }
 
 .easyText {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* ---------- */
