@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -15,12 +17,11 @@ a {
 
 /* ---------------- */
 
-/* index */
-.body {
-    width: 100%;
-}
+/* Код 1го задания */
 
-header {
+/* index */
+
+nav, .CSS-nav {
     height: 60px;
     background-color: rgb(248, 248, 248);
 }
@@ -67,18 +68,82 @@ form {
 .easyText {
     margin-bottom: 10px;
 }
+/* Конец Кода 1го задания. Все стили оставил, чтобы небыло путаницы.*/
 
 /* ---------- */
 
-/* 2 html */
+/* 2 html (с учётом ошибок по 1-ой работе с тегам) */
 
-.CSS-h1 {
+.mg-top {
+    margin-top: 20px;
+}
+
+
+body {
+    padding: 0 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    /*для визуала*/
+}
+
+.logotip {
+    margin-bottom: 30px;
+}
+
+h1.redColor {
+    margin-bottom: 20px;
+}
+
+.redColor {
     color: red;
 }
 
-.blueBG {
+.blueBlock {
     width: 100px;
-    height: 75px;
+    height: 80px;
+    margin-bottom: 100px;
     background-color: #0000FE;
     color: #fff;
 }
+
+.greenStyle {
+    
+    background-color: #008001;
+    color: #fff;
+}
+
+.WhatNext-pd, .GoNext-pd {
+    padding: 10px 5px;
+}
+
+.WhatICan-pd {
+    padding: 50px 45px;
+}
+
+.text-mg {
+    margin-left: 100px;
+}
+
+.list {
+    margin: 30px 0 0 25px;
+    list-style: disc;
+}
+
+.list li {
+    height: 35px;
+    border: 1px solid black;
+    font-size: 1.75rem;
+}
+
+footer {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
