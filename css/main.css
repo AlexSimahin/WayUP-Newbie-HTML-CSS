@@ -103,7 +103,7 @@ h1.redColor {
 
 .blueBlock {
     width: 105px;
-    height: 85px;
+    padding: 5px;
     margin-bottom: 100px;
     background-color: #0000FE;
     color: #fff;
