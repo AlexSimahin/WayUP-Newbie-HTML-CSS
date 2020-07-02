@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 62px;
+    background: rgb(78, 191, 254);
+    background: -moz-linear-gradient(135deg, rgba(78, 191, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(78, 191, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 191, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ebffe", endColorstr="#378fd9", GradientType=1);
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.dreams {
+    margin-top: 147px;
+}
