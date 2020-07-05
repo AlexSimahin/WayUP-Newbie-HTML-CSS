@@ -16,6 +16,7 @@ a {
 
 body {
     font: 15px 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5 {
@@ -84,7 +85,7 @@ p {
 }
 
 .desktop {
-    transform: translateX(20px);
+    padding-right: 5%;
 }
 
 .await {
@@ -182,18 +183,76 @@ p {
     .container {
         width: 960px;
     }
+
+    .dreams {
+        margin-top: 110px;
+    }
+
+    .title, .dreams-text {
+        width: 335px;
+    }
+
+    
 }
 
 @media screen and (max-width: 992px) {
     .container {
-        width: 720px;
+        max-width: 720px;
+        width: 90%;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .title, .dreams-text {
+        width: 100%;
+    }
+
+    .desktop {
+        max-width: 641px;
+        width: 100%;
+        padding: 0;
+        margin: 54px auto 0; 
+    }
+
+    .await-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .await-block {
+        margin-top: 40px;
+    }
+    .await-block:first-child {
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        width: 540px;
+    .align-center-content {
+        display: flex;
+        flex-direction: column;
     }
+
+    .logotip {
+        align-self: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .btn-form {
+        width: 100%;
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {
