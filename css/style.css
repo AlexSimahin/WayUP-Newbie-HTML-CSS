@@ -46,10 +46,7 @@ p {
 .wrapper {
     display: flex;
     justify-content: space-between;
-}
-
-.dreams {
-    margin-top: 147px;
+    align-items: center;
 }
 
 .title {
@@ -85,7 +82,7 @@ p {
 }
 
 .desktop {
-    padding-right: 5%;
+    margin-right: -60px;
 }
 
 .await {
@@ -134,7 +131,6 @@ p {
 }
 
 .form  {
-    height: 305px;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -145,15 +141,21 @@ p {
 .input {
     width: 343px;
     height: 48px;
+    margin-top: 15px;
     padding-left: 25px;
     border: 1px solid #bbbbbb;
     border-radius: 4px;
     font: 15px 'Open Sans', sans-serif;
 }
 
+.input:first-child {
+    margin: 0;
+}
+
 .btn-form {
     width: 343px;
     height: 56px;
+    margin-top: 15px;
     font: 15px 'Montserrat', sans-serif;
     background: #ffd429;
     color: #2e2a1b;
