@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>WAYUP курс — 3. Верстка современного сайта</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -12,11 +13,11 @@
 
     <header id="header" class="header">
         <div class="container align-center-content">
-            <img src="./img/logotip.png" alt="WayUP" class="logotip">
+            <img src="./img/logotip.png" alt="WayUP" class="logotip animate__animated animate__fadeInDown">
 
             <div class="wrapper">
 
-                <div class="dreams">
+                <div class="dreams animate__animated animate__fadeInLeft">
                     <h1 class="title">
                         С помощью верстки<br>я создам ту жизнь, о которой <span>мечтаю!</span>
                     </h1>
@@ -28,7 +29,7 @@
                     <a href="#" class="btn">Двигаться к мечте!</a>
                 </div>
     
-                <img src="./img/desktop.png" alt="Let's do that!" class="desktop">
+                <img src="./img/desktop.png" alt="Let's do that!" class="desktop animate__animated animate__fadeInRight">
                 
             </div>
             
@@ -37,10 +38,10 @@
 
     <section id="await" class="await">
         <div class="container">
-            <h2 class="section-title">Что меня ждет впереди</h2>
+            <h2 class="section-title animate__animated animate__fadeInDown">Что меня ждет впереди</h2>
 
             <div class="await-wrapper">
-                <div class="await-block">
+                <div class="await-block animate__animated ">
                     <h3 class="await-title">
                         Свободное время
                     </h3>
@@ -48,7 +49,7 @@
                         Мне нужно свободное время на семью и самое настоящее
                     </p>
                 </div>
-                <div class="await-block travels">
+                <div class="await-block travels animate__animated animate__delay-1s">
                     <h3 class="await-title">
                         Яркие путешествия
                     </h3>
@@ -56,7 +57,7 @@
                         Работать откуда угодно - что может быть лучше?
                     </p>
                 </div>
-                <div class="await-block craate">
+                <div class="await-block craate animate__animated animate__delay-2s">
                     <h3 class="await-title">
                         Создание ценности
                     </h3>
@@ -91,7 +92,8 @@
         </div>
     </footer>
 
-        
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

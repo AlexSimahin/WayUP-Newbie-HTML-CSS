@@ -179,6 +179,23 @@ p {
     text-align: center;
 }
 
+.text-color-unique {
+    /* background: url(https://images.unsplash.com/photo-1593781243220-51578354c57d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #29ff29;
+    
+}
+
+.animate__animated {
+    opacity: 0;
+}
+
+:root {
+    --animate-delay: 0.5s;
+}
+
+
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
