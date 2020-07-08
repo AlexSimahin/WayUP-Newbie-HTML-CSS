@@ -9,7 +9,7 @@ btn.addEventListener('click', (event) => {
 });
 
 
-$(window).scroll(function() {
+/*$(window).scroll(function() {
     $('.await-block').each(function() {
         let imagePos = $(this).offset().top;
 
@@ -18,7 +18,7 @@ $(window).scroll(function() {
             $(this).addClass("animate__fadeInLeft");
         }
     });
-});
+});*/
 
 
 

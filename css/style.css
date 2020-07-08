@@ -187,9 +187,9 @@ p {
     
 }
 
-.animate__animated {
+/* .animate__animated {
     opacity: 0;
-}
+} */
 
 :root {
     --animate-delay: 0.5s;
